@@ -18,6 +18,22 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="desserts.html">Dessert Options</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="basic.html">Basic</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="advanced.html">Advanced</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <h1>After dinner hosted by Kousik Kuchipudi</h1>
     <div class="container">
         <div class="row">
@@ -158,6 +174,60 @@
             </div>
         </div>
     </div>
+    <div class="container mt-4">
+        <form>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="dessert">Dessert</label>
+                <input type="text" class="form-control" id="dessert" placeholder="Enter your dessert">
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="newsletter">
+                <label class="form-check-label" for="newsletter">Sign up for newsletter?</label>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+        </form>
+    </div>
     
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="KeyLimePie.jpg" class="card-img-top" alt="Key Lime Pie">
+                    <div class="card-body">
+                        <h5 class="card-title">Key Lime Pie</h5>
+                        <p class="card-text">A refreshing dessert made with key lime juice, sweetened condensed milk, and a graham cracker crust.</p>
+                        <a href="https://en.wikipedia.org/wiki/Key_lime_pie" class="btn btn-primary">Key Lime Pie Wiki</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="cheesecake.jpg" class="card-img-top" alt="Cheesecake">
+                    <div class="card-body">
+                        <h5 class="card-title">Cheesecake</h5>
+                        <p class="card-text">A rich and creamy dessert made with cream cheese, sugar, and a buttery crust.</p>
+                        <a href="https://en.wikipedia.org/wiki/Cheesecake" class="btn btn-primary">Cheesecake Wiki</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="PumpkinPie.jpg" class="card-img-top" alt="Pumpkin Pie">
+                    <div class="card-body">
+                        <h5 class="card-title">Pumpkin Pie</h5>
+                        <p class="card-text">A classic dessert made with pumpkin puree, spices, and a flaky pie crust, perfect for fall.</p>
+                        <a href="https://en.wikipedia.org/wiki/Pumpkin_pie" class="btn btn-primary">PumpkinPie Wiki</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
